@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "price/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/price.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/price.dll": {}
+        }
+      },
+      "studentproject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/studentproject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/studentproject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "price/1.0.0": {
+      "type": "project",
+      "path": "../price/price.csproj",
+      "msbuildProject": "../price/price.csproj"
+    },
+    "studentproject/1.0.0": {
+      "type": "project",
+      "path": "../studentproject/studentproject.csproj",
+      "msbuildProject": "../studentproject/studentproject.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "price >= 1.0.0",
+      "studentproject >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anjali.Saini\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\ConsoleApp2\\Ecommerce.csproj",
+      "projectName": "Ecommerce",
+      "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\ConsoleApp2\\Ecommerce.csproj",
+      "packagesPath": "C:\\Users\\Anjali.Saini\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\ConsoleApp2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Anjali.Saini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj": {
+              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj"
+            },
+            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj": {
+              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

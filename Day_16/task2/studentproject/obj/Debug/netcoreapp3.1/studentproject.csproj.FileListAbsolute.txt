@@ -1,0 +1,10 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\bin\Debug\netcoreapp3.1\studentproject.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\bin\Debug\netcoreapp3.1\studentproject.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\bin\Debug\netcoreapp3.1\studentproject.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.csproj.AssemblyReference.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_16\task2\studentproject\obj\Debug\netcoreapp3.1\studentproject.pdb

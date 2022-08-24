@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj",
+        "projectName": "price",
+        "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj",
         "packagesPath": "C:\\Users\\Anjali.Saini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anjali.Saini\\AppData\\Roaming\\NuGet\\NuGet.Config",
