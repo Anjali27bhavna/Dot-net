@@ -12,14 +12,14 @@
           "bin/placeholder/price.dll": {}
         }
       },
-      "studentproject/1.0.0": {
+      "productitem/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/studentproject.dll": {}
+          "bin/placeholder/productitem.dll": {}
         },
         "runtime": {
-          "bin/placeholder/studentproject.dll": {}
+          "bin/placeholder/productitem.dll": {}
         }
       }
     }
@@ -30,16 +30,16 @@
       "path": "../price/price.csproj",
       "msbuildProject": "../price/price.csproj"
     },
-    "studentproject/1.0.0": {
+    "productitem/1.0.0": {
       "type": "project",
-      "path": "../studentproject/studentproject.csproj",
-      "msbuildProject": "../studentproject/studentproject.csproj"
+      "path": "../studentproject/productitem.csproj",
+      "msbuildProject": "../studentproject/productitem.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "price >= 1.0.0",
-      "studentproject >= 1.0.0"
+      "productitem >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -72,8 +72,8 @@
             "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj": {
               "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj"
             },
-            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj": {
-              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj"
+            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj": {
+              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj"
             }
           }
         }

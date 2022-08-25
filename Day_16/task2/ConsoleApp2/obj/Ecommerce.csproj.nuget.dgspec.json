@@ -31,8 +31,8 @@
               "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj": {
                 "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\price\\price.csproj"
               },
-              "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj": {
-                "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj"
+              "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj": {
+                "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj"
               }
             }
           }
@@ -119,12 +119,12 @@
         }
       }
     },
-    "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj": {
+    "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj",
-        "projectName": "studentproject",
-        "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\studentproject.csproj",
+        "projectUniqueName": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj",
+        "projectName": "productitem",
+        "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\productitem.csproj",
         "packagesPath": "C:\\Users\\Anjali.Saini\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_16\\task2\\studentproject\\obj\\",
         "projectStyle": "PackageReference",
