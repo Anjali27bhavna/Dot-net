@@ -1,0 +1,10 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\bin\Debug\netcoreapp3.1\customer.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\bin\Debug\netcoreapp3.1\customer.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\bin\Debug\netcoreapp3.1\customer.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.csproj.AssemblyReference.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\customer\obj\Debug\netcoreapp3.1\customer.pdb
