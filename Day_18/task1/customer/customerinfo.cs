@@ -7,6 +7,7 @@ namespace customer
         
             public int CustomerId { get; set; }
             public string CustomerName { get; set; }
+            public string Gender { get; set; }
             public long MobileNumber { get; set; }
             public string CustomerAddress { get; set; }
 
@@ -16,11 +17,13 @@ namespace customer
             CustomerId = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter CustomerName");
             CustomerName = Console.ReadLine();
+            Console.WriteLine("Gender");
+            Gender = Console.ReadLine();
             Console.WriteLine("Enter MobileNumber");
             MobileNumber = long.Parse(Console.ReadLine());
             Console.WriteLine("Enter CustomerAddress");
             CustomerAddress = Console.ReadLine();
-            Console.WriteLine("CustomerId is : " + CustomerId + " " +  "CustomerName is : "+ CustomerName + " " + "MobileNumber is : " + MobileNumber + " " + "CustomerAddress is : " + CustomerAddress);
+            Console.WriteLine("CustomerId is : " + CustomerId + " " +  "CustomerName is : "+ CustomerName + " " + "Gender" + " " + "MobileNumber is : " + MobileNumber + " " + "CustomerAddress is : " + CustomerAddress);
         }
     }
 }
