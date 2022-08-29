@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HospitalManagement/1.0.0": {
+        "dependencies": {
+          "Bed": "1.0.0",
+          "Doctor": "1.0.0",
+          "Patient": "1.0.0"
+        },
+        "runtime": {
+          "HospitalManagement.dll": {}
+        }
+      },
+      "Bed/1.0.0": {
+        "runtime": {
+          "Bed.dll": {}
+        }
+      },
+      "Doctor/1.0.0": {
+        "runtime": {
+          "Doctor.dll": {}
+        }
+      },
+      "Patient/1.0.0": {
+        "runtime": {
+          "Patient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HospitalManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bed/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Doctor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Patient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

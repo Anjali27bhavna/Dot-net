@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Bed/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Bed.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bed.dll": {}
+        }
+      },
+      "Doctor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Doctor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Doctor.dll": {}
+        }
+      },
+      "Patient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Patient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Patient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bed/1.0.0": {
+      "type": "project",
+      "path": "../Bed/Bed.csproj",
+      "msbuildProject": "../Bed/Bed.csproj"
+    },
+    "Doctor/1.0.0": {
+      "type": "project",
+      "path": "../Dosctorinfo/Doctor.csproj",
+      "msbuildProject": "../Dosctorinfo/Doctor.csproj"
+    },
+    "Patient/1.0.0": {
+      "type": "project",
+      "path": "../Patient/Patient.csproj",
+      "msbuildProject": "../Patient/Patient.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Bed >= 1.0.0",
+      "Doctor >= 1.0.0",
+      "Patient >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anjali.Saini\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\HospitalManagement\\HospitalManagement.csproj",
+      "projectName": "HospitalManagement",
+      "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\HospitalManagement\\HospitalManagement.csproj",
+      "packagesPath": "C:\\Users\\Anjali.Saini\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\HospitalManagement\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Anjali.Saini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\Bed\\Bed.csproj": {
+              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\Bed\\Bed.csproj"
+            },
+            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\Dosctorinfo\\Doctor.csproj": {
+              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\Dosctorinfo\\Doctor.csproj"
+            },
+            "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\Patient\\Patient.csproj": {
+              "projectPath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_19\\Assesment\\Patient\\Patient.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

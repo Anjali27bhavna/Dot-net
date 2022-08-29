@@ -1,0 +1,10 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\bin\Debug\netcoreapp3.1\Doctor.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\bin\Debug\netcoreapp3.1\Doctor.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\bin\Debug\netcoreapp3.1\Doctor.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_19\Assesment\Dosctorinfo\obj\Debug\netcoreapp3.1\Doctor.csproj.AssemblyReference.cache

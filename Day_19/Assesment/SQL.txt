@@ -1,0 +1,64 @@
+create database hospital
+use hospital
+
+create table doctor(docid int primary key identity, docname nvarchar(30), docdept nvarchar(20))
+create table patient(patid numeric primary key identity(90,1), patname nvarchar(30), patmail nvarchar(20), patage numeric, roomno numeric)
+create table bed(roomno numeric primary key, roomtype nvarchar(20), floorno numeric, docid int, constraint fk_b_d foreign key (docid) references doctor(docid), cost numeric)
+
+insert into doctor values('John Dorian','General Medicine')
+insert into doctor values('Shikhar Ganjuu','Dermat')
+insert into doctor values('Shweta Shukla','Surgeon')
+insert into doctor values('Chritopher','Head Chief')
+insert into doctor values('Molly','Psychiatrist')
+
+select * from doctor
+
+insert into patient values('Babita','babita@gmail.com',47,201)
+insert into patient values('John','john@gmail.com',50,102)
+insert into patient values('Bob','bob@gmail.com',34,105)
+insert into patient values('Mohit','mohit@gmail.com',20,202)
+insert into patient values('Robin','robin@gmail.com',18,301)
+
+select * from patient
+
+insert into bed values (102,'Single',1,1,1500)
+insert into bed values (201,'Double',2,3,3700)
+insert into bed values (105,'Single',1,2,4500)
+insert into bed values (202,'Triple',2,4,5800)
+insert into bed values (301,'Single',3,5,2000)
+
+select * from bed
+
+--stored procedures
+
+create procedure sp_docprice
+as begin
+select b.cost,d.docname from bed as b
+inner join doctor as d on
+b.docid=d.docid
+end
+
+exec sp_docprice
+
+--triggers
+
+create table registration(logid numeric identity(500,1),patid numeric,
+                             constraint fk_reg_pat foreign key(patid) references patient(patid),operation nvarchar(20),updatedate datetime)
+
+create trigger ins_reg
+on patient
+for insert
+as
+insert into registration(patid,operation,updatedate)
+select patid,'Data inserted',GETDATE()
+from inserted
+
+insert into patient values('Alex','alex@gmail.com',40,205)
+
+select * from registration
+
+
+
+
+
+
