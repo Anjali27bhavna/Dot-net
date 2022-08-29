@@ -17,3 +17,5 @@ C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\ConsoleApp1\obj\Debug\netcore
 C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\ConsoleApp1\bin\Debug\netcoreapp3.1\orders.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_18\task1\ConsoleApp1\bin\Debug\netcoreapp3.1\orders.pdb

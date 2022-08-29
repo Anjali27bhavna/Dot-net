@@ -4,7 +4,8 @@ using System.Text;
 
 namespace orders
 {
-    interface Iorder
+    public interface Iorder
     {
+        public void orderdetails();
     }
 }

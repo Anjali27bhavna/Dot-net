@@ -26,4 +26,8 @@ namespace customer
             Console.WriteLine("CustomerId is : " + CustomerId + " " +  "CustomerName is : "+ CustomerName + " " + "Gender" + " " + "MobileNumber is : " + MobileNumber + " " + "CustomerAddress is : " + CustomerAddress);
         }
     }
+
+    internal interface productinfo
+    {
+    }
 }
