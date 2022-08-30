@@ -39,7 +39,7 @@ namespace ConsoleApp1
             switch (n)
             {
                 case 1:
-                    
+
                     Console.WriteLine("enter the id");
                     emp.id = int.Parse(Console.ReadLine());
                     Console.WriteLine("enter name of employee");
@@ -63,7 +63,7 @@ namespace ConsoleApp1
                 case 2:
                     Console.WriteLine("enter the id ");
                     emp.id = int.Parse(Console.ReadLine());
-                    SqlCommand cmd1 = new SqlCommand("delete from employee_info where id=" + emp.id + " " , con);
+                    SqlCommand cmd1 = new SqlCommand("delete from employee_info where id=" + emp.id + " ", con);
                     con.Open();
                     cmd1.ExecuteNonQuery();
                     con.Close();
@@ -81,7 +81,7 @@ namespace ConsoleApp1
                     emp.salary = double.Parse(Console.ReadLine());
                     Console.WriteLine("enter employee gender");
                     emp.gender = Console.ReadLine();
-                    SqlCommand cmd2=new SqlCommand("update employee_info set name='" + emp.name + "', department = '" + emp.department + "', salary = " + emp.salary + ", gender = '" + emp.gender + "' where id = " + emp.id, con);
+                    SqlCommand cmd2 = new SqlCommand("update employee_info set name='" + emp.name + "', department = '" + emp.department + "', salary = " + emp.salary + ", gender = '" + emp.gender + "' where id = " + emp.id, con);
                     cmd2.ExecuteNonQuery();
                     con.Close();
                     Console.WriteLine("record updated");
@@ -90,14 +90,14 @@ namespace ConsoleApp1
                 case 4:
                     Console.WriteLine("enter the id ");
                     emp.id = int.Parse(Console.ReadLine());
-                    SqlDataAdapter da = new SqlDataAdapter("select * from employee_info",con);
+                    SqlDataAdapter da = new SqlDataAdapter("select * from employee_info", con);
                     DataSet ds = new DataSet();
                     da.Fill(ds, "employee_info");
                     int x = ds.Tables[0].Rows.Count;
                     //Console.WriteLine(x);
-                    for(int i=0;i<x;i++)
+                    for (int i = 0; i < x; i++)
                     {
-                        if(emp.id.ToString()==ds.Tables[0].Rows[i][0].ToString())
+                        if (emp.id.ToString() == ds.Tables[0].Rows[i][0].ToString())
                         {
                             Console.WriteLine("name :" + ds.Tables[0].Rows[i][1].ToString());
                             Console.WriteLine("department :" + ds.Tables[0].Rows[i][2].ToString());
@@ -106,15 +106,13 @@ namespace ConsoleApp1
                         }
                     }
                     break;
+
+
+                    // ' " + emp.name + " ' string value
+                    // " + emp. salary + "  int value
             }
-           
-            
 
 
-            // ' " + emp.name + " ' string value
-            // " + emp. salary + "  int value
         }
-
-
     }
 }
