@@ -67,6 +67,48 @@ namespace ConsoleApp1
                     con.Close();
                     Console.WriteLine("record deleted");
                     break;
+                    
+                     case 3:
+                        Console.WriteLine("Enter the id to be updated");
+                        emp.id = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Enter name of employee");
+                        emp.name = Console.ReadLine();
+                        Console.WriteLine("Enter department of employee");
+                        emp.department = Console.ReadLine();
+                        Console.WriteLine("Enter gender of employee");
+                        emp.gender = Console.ReadLine();
+
+                        SqlCommand cmd2 = new SqlCommand("update emp_details set name= '" + emp.name + "', department= '" + emp.department + "',gender='" + emp.gender + "' where id=" + emp.id + "", con);
+
+                        con.Open();
+                        cmd2.ExecuteNonQuery();
+                        con.Close();
+                        Console.WriteLine("Record updated successfully!!");
+                        break;
+                    case 4:
+                        Console.WriteLine("Enter the id to be searched");
+                        emp.id = int.Parse(Console.ReadLine());
+                        SqlDataAdapter da = new SqlDataAdapter("select * from emp_details", con);
+                        DataSet ds = new DataSet();
+                        da.Fill(ds, "emp_details");
+                        int x = ds.Tables[0].Rows.Count;
+                        Console.WriteLine("records found: " + x);
+
+                        for (int i = 0; i < x; i++)
+                        {
+                            if (emp.id.ToString() == ds.Tables[0].Rows[i][0].ToString())
+                            {
+                                Console.WriteLine("Name: " + ds.Tables[0].Rows[i][1].ToString());
+                                Console.WriteLine("Department: " + ds.Tables[0].Rows[i][2].ToString());
+                                Console.WriteLine("Gender: " + ds.Tables[0].Rows[i][3].ToString());
+                            }
+                        }
+                        break;
+
+                    default:
+                        Console.WriteLine("Wrong Input!!");
+                        break;
+
             }
            
             
