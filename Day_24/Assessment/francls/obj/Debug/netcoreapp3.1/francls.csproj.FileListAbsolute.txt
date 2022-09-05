@@ -1,0 +1,10 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\bin\Debug\netcoreapp3.1\francls.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\bin\Debug\netcoreapp3.1\francls.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\bin\Debug\netcoreapp3.1\francls.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.csproj.AssemblyReference.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\francls\obj\Debug\netcoreapp3.1\francls.pdb

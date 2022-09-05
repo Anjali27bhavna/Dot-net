@@ -1,0 +1,10 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\bin\Debug\netcoreapp3.1\ordercls.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\bin\Debug\netcoreapp3.1\ordercls.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\bin\Debug\netcoreapp3.1\ordercls.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.csproj.AssemblyReference.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\ordercls\obj\Debug\netcoreapp3.1\ordercls.pdb

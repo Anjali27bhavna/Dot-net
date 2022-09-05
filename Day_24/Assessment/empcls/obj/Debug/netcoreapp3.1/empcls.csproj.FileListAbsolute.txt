@@ -1,0 +1,10 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\bin\Debug\netcoreapp3.1\empcls.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\bin\Debug\netcoreapp3.1\empcls.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\bin\Debug\netcoreapp3.1\empcls.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.csproj.AssemblyReference.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_24\Assessment\empcls\obj\Debug\netcoreapp3.1\empcls.pdb
