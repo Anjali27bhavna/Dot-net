@@ -1,0 +1,14 @@
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\bin\Debug\netcoreapp3.1\ATMApp.exe
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\bin\Debug\netcoreapp3.1\ATMApp.deps.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\bin\Debug\netcoreapp3.1\ATMApp.runtimeconfig.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\bin\Debug\netcoreapp3.1\ATMApp.runtimeconfig.dev.json
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\bin\Debug\netcoreapp3.1\ATMApp.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\bin\Debug\netcoreapp3.1\ATMApp.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.csproj.AssemblyReference.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.AssemblyInfoInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.AssemblyInfo.cs
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.csproj.CoreCompileInputs.cache
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.dll
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.pdb
+C:\Users\Anjali.Saini\Desktop\Dot net\Day_25\ATMApp\ATMApp\obj\Debug\netcoreapp3.1\ATMApp.genruntimeconfig.cache
