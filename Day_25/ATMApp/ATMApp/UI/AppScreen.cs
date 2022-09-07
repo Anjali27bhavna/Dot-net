@@ -1,11 +1,14 @@
-﻿using System;
+﻿using ATMApp.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace ATMApp.UI
 {
     public static class AppScreen
     {
+        internal const string cur = "Rs";
         internal static void Welcome()
         {
 
@@ -25,6 +28,55 @@ namespace ATMApp.UI
             Utility.PressEnterToContinue();
         }
 
-        
+        internal static UserAccounts UserLoginForm()
+        {
+            UserAccounts tempUserAccount = new UserAccounts();
+
+            tempUserAccount.CardNumber = Validate.Convert<long>("your card number. ");
+
+            tempUserAccount.CardPin = Convert.ToInt32(Utility.GetSecretInput("Enter your card PIN"));
+            return tempUserAccount;
+        }
+
+        internal static void LoginProgress()
+        {
+            Console.WriteLine("Checking card number and PIN...");
+            Utility.PrintDotAnimation();
+        }
+
+        internal static void PrintLockScreen()
+        {
+            Console.Clear();
+            Utility.PrintMessage("Your account is locked. Please go to the nearest brach to unlock your account. Thank You", true);
+            Utility.PressEnterToContinue();
+            Environment.Exit(1);
+        }
+
+        internal static void WelcomeCustomer(string fullname)
+        {
+            Console.WriteLine($"Welcome back,{fullname}");
+            Utility.PressEnterToContinue();
+        }
+
+        internal static void DisplayAppMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("---------------My ATM Menu----------------");
+            Console.WriteLine(":                                        :");
+            Console.WriteLine("1. Account Balance                       :");
+            Console.WriteLine("2. Cash Deposit                          :");
+            Console.WriteLine("3. Withdrawal                            :");
+            Console.WriteLine("4. Transfer                              :");
+            Console.WriteLine("5. Transactions                          :");
+            Console.WriteLine("6. Logout                                :");
+        }
+
+        internal static void LogOutProgress()
+        {
+            Console.WriteLine("Thank you for using My ATM App.");
+            Utility.PrintDotAnimation();
+            Console.Clear();
+        }
+
     }
 }
