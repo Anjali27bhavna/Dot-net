@@ -13,7 +13,7 @@ namespace ATMApp
         private List<UserAccounts> userAccountList;
         private UserAccounts selectedAccount;
         private List<transaction> _listofTransactions;
-
+        private const decimal minimumKeptAmount = 500;
         public void IntializeData()
         {
             userAccountList = new List<UserAccounts>
@@ -92,7 +92,7 @@ namespace ATMApp
                     PlaceDeposit();
                     break;
                 case (int)AppMenu.MakeWithdrawal:
-                    Console.WriteLine("Making withdrawal...");
+                    MakeWithDrawal();
                     break;
                 case (int)AppMenu.InternalTransfer:
                     Console.WriteLine("Making internal transfer...");
@@ -155,6 +155,50 @@ namespace ATMApp
         public void MakeWithDrawal()
         {
             var transaction_amt = 0;
+            int selectedAmount = AppScreen.SelectAmount();
+            if(selectedAmount==-1)
+            {
+                selectedAmount = AppScreen.SelectAmount();
+            }
+            else if(selectedAmount !=0)
+            {
+                transaction_amt = selectedAmount;
+            }
+            else
+            {
+                transaction_amt = Validate.Convert<int>($"amount {AppScreen.cur}");
+            }
+
+            //input validation
+            if(transaction_amt<=0)
+            {
+                Utility.PrintMessage("Amount needs to be greater than zero. Try again", false);
+                return;
+            }
+            if(transaction_amt %500!=0)
+            {
+                Utility.PrintMessage("You can only withdraw in multiples of 500 or 1000. Try again", false);
+                return;
+            }
+            //business logic validations
+
+            if(transaction_amt > selectedAccount.AccountBalance)
+            {
+                Utility.PrintMessage($"Withdrawal failed. Your balance is too low {Utility.FormatAmount(transaction_amt)}", false);
+                return;
+            }
+            if((selectedAccount.AccountBalance-transaction_amt) < minimumKeptAmount)
+            {
+                Utility.PrintMessage($"Withdrawal failed. Your account needs to have minimum {Utility.FormatAmount(minimumKeptAmount)}", false);
+                return;
+            }
+            //bind withdrawal details to transaction object
+            InsertTransaction(selectedAccount.Id, TransactionType.Withdrawal, -transaction_amt, "");
+            //update account balance
+            selectedAccount.AccountBalance -= transaction_amt;
+            //success message
+            Utility.PrintMessage($"You have successfully withdrawn {Utility.FormatAmount(transaction_amt)}", true);
+
 
         }
         private bool PreviewBankNotesCount(int amount)
