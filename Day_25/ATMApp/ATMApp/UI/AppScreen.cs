@@ -119,7 +119,7 @@ namespace ATMApp.UI
                     break;
                 default:
                     Utility.PrintMessage("Invalid input. Try again", false);
-                    //selectedAmount();
+                    //SelectAmount();
                     return -1;
                     break;
 
