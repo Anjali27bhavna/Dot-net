@@ -42,7 +42,7 @@ namespace ConsoleApp1
                 if(!File.Exists(myfile))
                     using(StreamWriter sw = File.CreateText(myfile))
                     {
-                        sw.WriteLine($"Record {i} : Id - {emp.id}, Name - {emp.name}, department - {emp.salary}, salary - {emp.salary}, gender - {emp.gender}");
+                        sw.WriteLine($"Record : Id - {emp.id}, Name - {emp.name}, department - {emp.salary}, salary - {emp.salary}, gender - {emp.gender}");
 
                     }
                 else
