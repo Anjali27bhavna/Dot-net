@@ -1,8 +1,8 @@
-900 / mohit / 16000
-901 / nikhil / 17600
-902 / monty / 20000
-903 / chotu / 20400
-904 / avneesh / 25200
-905 / daya / 30000
-906 / tappu / 30000
-907 / anjali / 24240
+EmpID : 900 / Empname : mohit / Salary : 16000
+EmpID : 901 / Empname : nikhil / Salary : 17600
+EmpID : 902 / Empname : monty / Salary : 20000
+EmpID : 903 / Empname : chotu / Salary : 20400
+EmpID : 904 / Empname : avneesh / Salary : 25200
+EmpID : 905 / Empname : daya / Salary : 30000
+EmpID : 906 / Empname : tappu / Salary : 30000
+EmpID : 907 / Empname : anjali / Salary : 24240
