@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qODxo5m43745mnfAzaLiFgKtyIe43EGEud9F1MgwjAzT2S49MODCPO1HqBbrIAQbrUXkUQMGmsTd/+CJO1tsDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anjali.Saini\\Desktop\\Dot net\\Day_32\\task1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anjali.Saini\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Anjali.Saini\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Anjali.Saini\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\Anjali.Saini\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
