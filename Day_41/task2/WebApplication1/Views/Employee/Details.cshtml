@@ -1,0 +1,30 @@
+﻿
+@model WebApplication1.Models.EmployeeDetailsViewModel
+<html>
+<head>
+    <title>@Model.Title</title>
+</head>
+<body>
+    <div class="jumbotron-fluid">
+        <h1>@Model.Header</h1>
+    </div>
+    <div>
+        Employee id : @Model.employee.EmployeeId
+    </div>
+    <div>
+        Employee name : @Model.employee.Name
+    </div>
+    <div>
+        Employee Salary : @Model.employee.Salary
+    </div>
+    <div>
+        Employee Gender : @Model.employee.Gender
+    </div>
+    <div>
+        Employee department id : @Model.department.DeparmentId
+    </div>
+    <div>
+        Department name : @Model.department.DepName
+    </div>
+</body>
+</html>

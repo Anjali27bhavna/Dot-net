@@ -1,0 +1,190 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}*/
+
+/* Provide sufficient contrast against white background */
+/*a {
+  color: #0366d6;
+}*/
+
+/*.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  font-size: 14px;
+}*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+*/
+/*body {*/
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;
+}*/
+/*.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;*/ /* Vertically center the text there */
+/*}
+* {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+}*/
+
+.container {
+    width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(204, 140, 20);
+    box-shadow: 5px 5px 10px rgb(119, 109, 109), -5px -5px 10px rgb(163,154,154);
+}
+
+header {
+    display: flex;
+    padding-left: 76px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.label {
+    margin: 10px 0 0 5%;
+}
+
+    .label a {
+        color: rgb(204, 140, 20);
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 1px solid rgb(204, 140, 20);
+        padding: 5px;
+    }
+
+.navbar {
+    margin-left: 8%;
+    height: 163px;
+}
+
+    .navbar ul {
+        list-style: none;
+        display: flex;
+    }
+
+        .navbar ul li {
+            margin: 8px 18px;
+        }
+
+            .navbar ul li a {
+                color: black;
+                font-size: 16px;
+                font-weight: 600;
+                position: relative;
+            }
+
+    .navbar .active {
+        padding: 8px 14px;
+        border-radius: 6px;
+        background: rgb(204, 140, 20);
+        color: white;
+    }
+
+.body-content {
+    display: flex;
+}
+
+.b-title {
+    margin-left: 5%;
+}
+
+    .b-title h1 {
+        font-size: 30px;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+
+    .b-title p {
+        margin: 30px 0;
+    }
+
+    .b-title a {
+        width: 100px;
+        height: 50px;
+        padding: 10px;
+        background: rgb(204, 140, 20);
+        border-radius: 6px;
+        color: white;
+    }
+
+.b-image img {
+    width: 600px;
+}
+
+.b-title .btn {
+    margin-left: 10px;
+    background: rgb(134,143,109);
+    height: 44px;
+}
+
+.navbar a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: auto;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(204, 140, 20);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+    left: 0;
+}

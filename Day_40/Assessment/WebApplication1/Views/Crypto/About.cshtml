@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] -About</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+        .crypto .btn {
+            color: rgb(204, 140, 20);
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 1px solid rgb(204, 140, 20);
+            padding: 5px;
+        }
+
+        .heading {
+            text-align: center;
+            color: var(--black);
+            font-size: 3rem;
+            padding-bottom: 2rem;
+            text-transform: uppercase;
+        }
+
+        .crypto .box-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+            gap: 1.5rem;
+        }
+
+            .crypto .box-container .box {
+                padding: 2.5rem;
+                background: #fff;
+                border-radius: .5rem;
+                border: .1rem solid rgba(0,0,0,.2);
+                
+                position: relative;
+                overflow: hidden;
+                text-align: center;
+            }
+
+                .crypto .box-container .box img {
+                    height: 17rem;
+                    margin: 1rem 0;
+                    width:17rem;
+                }
+    </style>
+</head>
+<body>
+    <section class="crypto">
+        <h3 class="heading">Popular Crypto</h3>
+        <div class="box-container">
+            <div class="box">
+                
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png">
+                <h3>Bit Coin</h3>
+
+                <span>$21,685.20</span>
+                <a href="#" id="bitcoin" class="btn">Buy now</a>
+            </div>
+            <div class="box">
+               
+                <img src="https://assets.gadgets360cdn.com/img/crypto/dogecoin-og-logo.png">
+                <h3>Doge Coin</h3>
+
+                <span>$0.070</span>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+            <div class="box">
+                
+                <img src="https://d33wubrfki0l68.cloudfront.net/13ca0c32ffd56bcfaf861b9a8acb212d0f6482e3/d8df6/static/c3bcc8c47890ffd2a2c329972c73d0fd/e018d/ethereum-logo-portrait-black-gray.png">
+                <h3>Etherium</h3>
+
+                <span>$1,739.38</span>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+            <div class="box">
+                
+                <img src="https://www.pngitem.com/pimgs/m/137-1375518_ripple-coin-png-xrp-ripple-coin-png-transparent.png">
+                <h3>Ripple Coin</h3>
+
+                <span>$4,747.56</span>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+            <div class="box">
+                
+                <img src="https://assets.coingecko.com/coins/images/13496/large/ZINt8NSB_400x400.jpg?1609193407">
+                <h3>Torn Coin</h3>
+
+                <span>$0.100</span>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+            <div class="box">
+               
+                <img src="https://www.iconpacks.net/icons/2/free-binance-coin-icon-2211-thumb.png">
+                <h3>Binance Coin</h3>
+
+                <span>$283.96</span>
+                <a href="#" class="btn">Buy now</a>
+            </div>
+        </div>
+    </section>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <div class="container_con">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13249.247068040606!2d151.20960562674117!3d-33.8816236491114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1468899355787" width="100%" height="650px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="contact-form">
+            <h1 class="title">Contact Us</h1>
+            <h2 class="subtitle">We are here to assist you.</h2>
+            <form action="">
+                <input type="text" name="name" placeholder="Your Name" />
+                <input type="email" name="e-mail" placeholder="Your E-mail Adress" />
+                <input type="tel" name="phone" placeholder="Your Phone Number" />
+                <textarea name="text" id="" rows="8" placeholder="Your Message"></textarea>
+                <button class="btn-send">Get a Call Back</button>
+            </form>
+        </div>
+    </div>
+    <style>
+        .container_con {
+            background: transparent;
+            width: 900px;
+            height: 675px;
+            margin: 5% auto;
+            box-shadow: 0px 0px 10px;
+            position: relative;
+        }
+
+        .map {
+            width: 45%;
+            float: left;
+        }
+
+        .contact-form {
+            width: 53%;
+            margin-left: 2%;
+            float: left;
+        }
+
+        .title {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: black;
+            margin: 5% 8%;
+        }
+
+        input,
+        textarea {
+            width: 330px;
+            padding: 3%;
+            margin: 2% 8%;
+            color: black;
+            border: 1px solid;
+        }
+
+        .btn-send {
+            background: transparent;
+            width: 180px;
+            height: 22px;
+            color: black;
+            font-weight: 700;
+            margin: 2% 8%;
+            border: none;
+        }
+    </style>
+    <h2>Click the button to get your coordinates.</h2>
+
+    <button onclick="getLocation()">Location</button>
+
+    <p id="demo"></p>
+
+    <script>
+                var x = document.getElementById("demo");
+
+                function getLocation() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                    } else {
+                        x.innerHTML = "Geolocation is not supported by this browser.";
+                    }
+                }
+
+                function showPosition(position) {
+                    x.innerHTML = "Latitude: " + position.coords.latitude +
+                        "<br>Longitude: " + position.coords.longitude;
+                }
+    </script>
+
+</body>
+</html>
